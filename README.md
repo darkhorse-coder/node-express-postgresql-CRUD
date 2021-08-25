@@ -19,24 +19,28 @@ in this repository, I don't aim to provide an optimal solution as each project h
  # How to start the project 
  
  first you clone the project using the following command :
- 
- git clone https://github.com/AlaaMezian/NodeJs-backend-structure.git
- 
+ ```bash
+ git clone https://github.com/darkhorse-coder/node-express-postgresql-CRUD.git
+ ```
  install node version 8.11.0 or use nvm to downgrade your node version 
  
- delete the existing package.lock.json and run npm install 
+ delete the existing package.lock.json and run `npm install`
  
- then you create a postgres database Named iLrn with the following credintials 
+ then you create a postgres database Named `iLrn` with the following credintials 
  
- username : postgres 
+ username : `postgres` 
  
- password : password
+ password : `password`
  
  run the migration using the following command :
+ ```bash
  npx sequelize-cli db:migrate
- 
- Finally you run npm start 
-  
+ ```
+ Finally you run 
+ ```bash
+ npm start 
+ ```
+
 Future improvements utilize compenent based structe
 
 please feel free to :star:  happy programming :v: 
